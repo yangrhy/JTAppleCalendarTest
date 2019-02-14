@@ -1,0 +1,6 @@
+framework module Pods_JTAppleCalendarTest {
+  umbrella header "Pods-JTAppleCalendarTest-umbrella.h"
+
+  export *
+  module * { export * }
+}

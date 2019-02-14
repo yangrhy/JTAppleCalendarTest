@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		799742D6CFA47F9FBD0844F2 /* Pods_JTAppleCalendarTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2750B514341E14755A7D97F6 /* Pods_JTAppleCalendarTest.framework */; };
+		9CA4D53E2215F9280037B82D /* CustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CA4D53D2215F9280037B82D /* CustomCell.swift */; };
 		9CB7089B2215F41B00084F8D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CB7089A2215F41B00084F8D /* AppDelegate.swift */; };
 		9CB7089D2215F41B00084F8D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CB7089C2215F41B00084F8D /* ViewController.swift */; };
 		9CB708A02215F41B00084F8D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9CB7089E2215F41B00084F8D /* Main.storyboard */; };
@@ -15,6 +17,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0E0C7303D77C17C2D55B9272 /* Pods-JTAppleCalendarTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JTAppleCalendarTest.debug.xcconfig"; path = "Target Support Files/Pods-JTAppleCalendarTest/Pods-JTAppleCalendarTest.debug.xcconfig"; sourceTree = "<group>"; };
+		2750B514341E14755A7D97F6 /* Pods_JTAppleCalendarTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JTAppleCalendarTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9CA4D53D2215F9280037B82D /* CustomCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCell.swift; sourceTree = "<group>"; };
 		9CB708972215F41B00084F8D /* JTAppleCalendarTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JTAppleCalendarTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9CB7089A2215F41B00084F8D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9CB7089C2215F41B00084F8D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +27,7 @@
 		9CB708A12215F41C00084F8D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9CB708A42215F41C00084F8D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9CB708A62215F41C00084F8D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE962AB02641FA56F719A93B /* Pods-JTAppleCalendarTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JTAppleCalendarTest.release.xcconfig"; path = "Target Support Files/Pods-JTAppleCalendarTest/Pods-JTAppleCalendarTest.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +35,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				799742D6CFA47F9FBD0844F2 /* Pods_JTAppleCalendarTest.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		43119965479CA648FBB5CE10 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0E0C7303D77C17C2D55B9272 /* Pods-JTAppleCalendarTest.debug.xcconfig */,
+				EE962AB02641FA56F719A93B /* Pods-JTAppleCalendarTest.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		6C795D2391ADA4B365F63D41 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2750B514341E14755A7D97F6 /* Pods_JTAppleCalendarTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		9CB7088E2215F41B00084F8D = {
 			isa = PBXGroup;
 			children = (
 				9CB708992215F41B00084F8D /* JTAppleCalendarTest */,
 				9CB708982215F41B00084F8D /* Products */,
+				43119965479CA648FBB5CE10 /* Pods */,
+				6C795D2391ADA4B365F63D41 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -57,6 +83,7 @@
 				9CB7089A2215F41B00084F8D /* AppDelegate.swift */,
 				9CB7089C2215F41B00084F8D /* ViewController.swift */,
 				9CB7089E2215F41B00084F8D /* Main.storyboard */,
+				9CA4D53D2215F9280037B82D /* CustomCell.swift */,
 				9CB708A12215F41C00084F8D /* Assets.xcassets */,
 				9CB708A32215F41C00084F8D /* LaunchScreen.storyboard */,
 				9CB708A62215F41C00084F8D /* Info.plist */,
@@ -71,9 +98,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9CB708A92215F41C00084F8D /* Build configuration list for PBXNativeTarget "JTAppleCalendarTest" */;
 			buildPhases = (
+				93AB5F96C51B016CB1157584 /* [CP] Check Pods Manifest.lock */,
 				9CB708932215F41B00084F8D /* Sources */,
 				9CB708942215F41B00084F8D /* Frameworks */,
 				9CB708952215F41B00084F8D /* Resources */,
+				F340B62F07E9926271BF8532 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -130,12 +159,60 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		93AB5F96C51B016CB1157584 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-JTAppleCalendarTest-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F340B62F07E9926271BF8532 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-JTAppleCalendarTest/Pods-JTAppleCalendarTest-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/JTAppleCalendar/JTAppleCalendar.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JTAppleCalendar.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-JTAppleCalendarTest/Pods-JTAppleCalendarTest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		9CB708932215F41B00084F8D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				9CB7089D2215F41B00084F8D /* ViewController.swift in Sources */,
+				9CA4D53E2215F9280037B82D /* CustomCell.swift in Sources */,
 				9CB7089B2215F41B00084F8D /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -280,6 +357,7 @@
 		};
 		9CB708AA2215F41C00084F8D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0E0C7303D77C17C2D55B9272 /* Pods-JTAppleCalendarTest.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -297,6 +375,7 @@
 		};
 		9CB708AB2215F41C00084F8D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EE962AB02641FA56F719A93B /* Pods-JTAppleCalendarTest.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
