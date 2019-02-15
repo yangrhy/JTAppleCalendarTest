@@ -41,10 +41,8 @@ extension ViewController: JTAppleCalendarViewDelegate, JTAppleCalendarViewDataSo
     }
     
     func calendar(_ calendar: JTAppleCalendarView, willDisplay cell: JTAppleCell, forItemAt date: Date, cellState: CellState, indexPath: IndexPath) {
-        
-        let cell = calendar.dequeueReusableJTAppleCell(withReuseIdentifier: "CustomCell", for: indexPath) as! CustomCell
-        
-        cell.dateLabel.text = cellState.text
+        let myCustomCell = cell as! CustomCell
+        myCustomCell.dateLabel.text = cellState.text
     }
     
 }
